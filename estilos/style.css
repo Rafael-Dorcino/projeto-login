@@ -19,9 +19,13 @@ main {
     width: 100vw;
 }
 
-h1 {
+div#formulario > h1 {
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
 
 img {
