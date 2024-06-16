@@ -65,6 +65,58 @@ section#login> div#formulario {
     padding: 10px;
 }
 
+p.campo {
+    background-color: #1B98E0;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+p.campo > label {
+    display: none;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #1B98E0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1970a3;
+    
+}
+
+a.botao {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: #1B98E0;
+    color: white;
+    border-radius: 5px;
+}
+
+a.botao > span {
+    font-size: 0.8em;
+}
+
+a.botao:hover {
+    background-color: #1970a3;
+}
+
 /*
 input {
     padding: 8px;
